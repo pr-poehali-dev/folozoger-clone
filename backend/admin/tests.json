@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "Admin root forbidden without token",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 403,
+      "expectedBody": {"error": "Доступ запрещён"},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

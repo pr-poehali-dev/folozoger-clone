@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "Users root returns 404",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 404,
+      "expectedBody": {"error": "Маршрут не найден"},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

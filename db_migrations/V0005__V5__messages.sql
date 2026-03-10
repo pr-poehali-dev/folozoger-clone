@@ -1,0 +1,1 @@
+CREATE TABLE t_p20273256_folozoger_clone.messages (id SERIAL PRIMARY KEY, conversation_id INTEGER, sender_id INTEGER, content TEXT NOT NULL, is_removed BOOLEAN DEFAULT FALSE, created_at TIMESTAMP DEFAULT NOW())

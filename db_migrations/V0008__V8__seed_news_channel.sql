@@ -1,0 +1,1 @@
+INSERT INTO t_p20273256_folozoger_clone.conversations (type, name, description, owner_id, is_locked) SELECT 'channel', 'Новости Folozoger', 'Официальный канал новостей Folozoger', id, TRUE FROM t_p20273256_folozoger_clone.users WHERE username = 'CoNNectioN'

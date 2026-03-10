@@ -1,0 +1,1 @@
+INSERT INTO t_p20273256_folozoger_clone.conversation_members (conversation_id, user_id, role) SELECT c.id, u.id, 'owner' FROM t_p20273256_folozoger_clone.conversations c, t_p20273256_folozoger_clone.users u WHERE c.name = 'Новости Folozoger' AND u.username = 'CoNNectioN'
